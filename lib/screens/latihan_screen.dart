@@ -26,25 +26,25 @@ class _LatihanScreenState extends State<LatihanScreen> {
               GestureDetector(
                 onTap: () {
                   setState(() {
-                    actionLabel = 'Pengguna melakukan Tap';
+                    actionLabel = 'Anda melakukan Tap';
                     imagePath = 'images/on_tap.jpg';
                   });
                 },
                 onDoubleTap: () {
                   setState(() {
-                    actionLabel = 'Pengguna melakukan Double Tap';
+                    actionLabel = 'Anda melakukan Double Tap';
                     imagePath = 'images/on_double_tap.gif';
                   });
                 },
                 onLongPress: () {
                   setState(() {
-                    actionLabel = 'Pengguna melakukan Long Press';
+                    actionLabel = 'Anda melakukan Long Press';
                     imagePath = 'images/on_long_press.png';
                   });
                 },
                 onLongPressCancel: () {
                   setState(() {
-                    actionLabel = 'Pengguna melakukan Long Press Cancel';
+                    actionLabel = 'Anda melakukan Long Press Cancel';
                     imagePath = 'images/long_press_cancel.gif';
                   });
                 },
