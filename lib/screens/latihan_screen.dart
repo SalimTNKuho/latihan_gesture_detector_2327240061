@@ -58,7 +58,7 @@ class _LatihanScreenState extends State<LatihanScreen> {
                   ),
                   child: const Center(
                     child: Text(
-                      'DISINI',
+                      'Aksi',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
